@@ -1,0 +1,7 @@
+[package]
+name = "repro-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+repro-proc-macro = { workspace = true }

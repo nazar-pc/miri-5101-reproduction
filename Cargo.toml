@@ -1,0 +1,11 @@
+[workspace]
+resolver = "3"
+members = [
+    "repro-app",
+    "repro-proc-macro",
+    "repro-proc-macro-dep",
+]
+
+[workspace.dependencies]
+repro-proc-macro = { path = "repro-proc-macro" }
+repro-proc-macro-dep = { path = "repro-proc-macro-dep" }

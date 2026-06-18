@@ -1,0 +1,5 @@
+[toolchain]
+channel = "nightly-2026-05-15"
+components = ["miri"]
+targets = []
+profile = "default"
